@@ -8,4 +8,16 @@ public class Person {
 		this.name = name;
 		this.surname = surname;
 	}
+
+	public void getDetails(){
+		System.out.println(this);
+	}
+
+	@Override
+	public String toString() {
+		return "Person{" +
+				"name='" + name + '\'' +
+				", surname='" + surname + '\'' +
+				'}';
+	}
 }
