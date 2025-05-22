@@ -8,4 +8,13 @@ public class Teacher extends Person {
 		super(name, surname);
 		this.area = area;
 	}
+
+	@Override
+	public String toString() {
+		return "Teacher{" +
+				"name='" + name + '\'' +
+				", surname='" + surname + '\'' +
+				", area='" + area + '\'' +
+				'}';
+	}
 }
